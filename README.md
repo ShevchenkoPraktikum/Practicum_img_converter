@@ -37,5 +37,8 @@ cmake ../ -DCMAKE_BUILD_TYPE=<build_type_here> -DLIBJPEG_DIR=<path_to_LibJPEG> -
 ```
 cmake --build .
 ```
-
+## Как использовать программу
+В папке собранной программы откройте командную строку Windows и используйте следующую команду:
+```
+imgconv <in_file> <out_file>
 

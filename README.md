@@ -24,9 +24,17 @@
 2. Внутри распакованной папки откройте командную строку Bash и выполните следующие команды:
 ```
 cd ImgConverter
+```
+```
 mkdir <build_type_here>
+```
+```
 cd <build_type_here>
+```
+```
 cmake ../ -DCMAKE_BUILD_TYPE=<build_type_here> -DLIBJPEG_DIR=<path_to_LibJPEG> -G "MinGW Makefiles" -DCMAKE_CXX_COMPILER=g++
+```
+```
 cmake --build .
 ```
 

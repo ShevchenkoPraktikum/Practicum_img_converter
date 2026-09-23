@@ -31,6 +31,8 @@ mkdir <build_type_here>
 ```
 cd <build_type_here>
 ```
+где `<build_type_here>` - тип вашей сборки (Debug или Release)
+
 ```
 cmake ../ -DCMAKE_BUILD_TYPE=<build_type_here> -DLIBJPEG_DIR=<path_to_LibJPEG> -G "MinGW Makefiles" -DCMAKE_CXX_COMPILER=g++
 ```
@@ -42,6 +44,8 @@ cmake --build .
 ```
 imgconv <in_file> <out_file>
 ```
+где `<in_file>` - название входного изображения, `<out_file>` - название выходного изображения.
+
 Пример:
 ```
 imgconv pic01.jpeg pic01.ppm
